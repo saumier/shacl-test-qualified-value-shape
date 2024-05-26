@@ -1,0 +1,12 @@
+@prefix ex: <http://example.com/> . 
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+ex:QualifiedValueShapeExample
+	ex:parent ex:John ;
+	ex:parent ex:Jane .
+
+ex:John
+	ex:gender ex:male .
+
+ex:Jane
+	ex:gender ex:female .
